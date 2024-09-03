@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.containar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 500px;
+}
+.containar h1{
+    padding-top: 20px;
+}
+.containar .input-box{
+    padding: 40px;
+}
+
+.containar .input-box input,select,button{
+    margin: 5px;
+    height: 30px;
+}
+.containar button{
+    padding: 0px 5px;
+}
+#addTaskBtn{
+    background-color: green;
+    border: none;
+    color: white;
+}
+#deleteTaskBtn{
+    background-color: red;
+    border: none;
+    color: white;
+}
